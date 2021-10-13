@@ -1,7 +1,7 @@
 import telebot
 from pyowm import OWM
 
-owm = OWM('a464f9ec8c423ca4231d871fa1820406')
+owm = OWM('Token')
 mgr = owm.weather_manager()
 
 bot = telebot.TeleBot("Token")
