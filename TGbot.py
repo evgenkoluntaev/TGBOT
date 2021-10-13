@@ -4,7 +4,7 @@ from pyowm import OWM
 owm = OWM('a464f9ec8c423ca4231d871fa1820406')
 mgr = owm.weather_manager()
 
-bot = telebot.TeleBot("2036184441:AAEkRHkFlLg5MTiD1-VaL4XwXzqUYBUVy3g")
+bot = telebot.TeleBot("Token")
 
 @bot.message_handler(commands=['start'])
 def start_handler(message):
